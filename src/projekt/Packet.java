@@ -41,4 +41,11 @@ public abstract class Packet implements Serializable {
 	{
 		return description;
 	}
+	
+	public String getFileName()
+	{
+		return device + "_" + description;
+	}
+	
+	
 }
